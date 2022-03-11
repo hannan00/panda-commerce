@@ -5,12 +5,15 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+/***** Header CSS *****/
+
 nav.navbar.navbar-expand-lg.navbar-light {
     margin: 40px 0;
 }
 .custom-form {
     position: relative;
-    width: 40%;
+    width: 50%;
     height: 48px;
 }
 
@@ -28,4 +31,69 @@ nav.navbar.navbar-expand-lg.navbar-light {
     font-size: 16px;
     font-weight: 500;
     text-transform: capitalize;
+    margin-right: 8px;
 }
+/***** End Header CSS *****/
+
+/***** Slider CSS *****/
+
+.single-slider{
+    background-color: #FEEAE9;
+    
+}
+.slider-content h1 {
+    font-size: 56px;
+    color: #1F1F1F;
+    font-weight: 700;
+}
+.slider-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #4E4E4E;
+}
+.slider-content h3 {
+    font-size: 41px;
+    color: #FF136F;
+    padding: 20px 0;
+    font-weight: 500;
+}
+a.custom-btn {
+    background-image: linear-gradient(360deg, #FF136F, #ff68a382);
+    border: none;
+}
+/***** End Slider CSS *****/
+
+
+/***** Media Query CSS *****/
+@media (max-width: 575.98px) {
+    .custom-form{
+        width: 100%;
+    }
+    .custom-form [type=submit]{
+        top: 0;
+    }
+    #slider .single-slider{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    
+}
+
+@media (max-width: 991.98px) {
+    
+}
+
+@media (max-width: 1199.98px) { 
+    
+}
+
+@media (max-width: 1399.98px) { 
+    
+}
+/***** End Media Query CSS *****/
+
+
+
