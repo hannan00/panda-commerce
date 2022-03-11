@@ -61,7 +61,7 @@ nav.navbar.navbar-expand-lg.navbar-light {
     padding: 20px 0;
     font-weight: 500;
 }
-a.custom-btn {
+.custom-btn {
     background-image: linear-gradient(360deg, #FF136F, #ff68a382);
     border: none;
 }
@@ -92,13 +92,28 @@ a.custom-btn {
 #product{
     background-color: #F4F4F4;
 }
-
+.card-footer .btn {
+    background: black;
+}
+.single-product .card-body h5 {
+    font-size: 30px;
+    font-weight: 500;
+}
 /***** End Products css *****/
 
 
 
-
-
+.subscribe {
+    background: #FFF2F1;
+}
+.input-group input[type=email]{
+    padding: 20px;
+}
+.input-group .custom-btn .btn.text-white {
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
 
 
 
